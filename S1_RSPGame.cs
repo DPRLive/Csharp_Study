@@ -2,7 +2,7 @@
 
 namespace Csharp_Study
 {
-    class Program
+    class S1_RSPGame
     {
         static void Main(string[] args)
         {
