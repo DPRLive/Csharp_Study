@@ -1,0 +1,4 @@
+git config --global user.name "DPRLive"
+
+
+git config --global user.email "chosy0107@naver.com"
