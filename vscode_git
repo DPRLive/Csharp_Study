@@ -1,4 +1,12 @@
+깃 설치 
+
+
 git config --global user.name "DPRLive"
 
 
 git config --global user.email "chosy0107@naver.com"
+
+
+git remote -v 
+=> https://github.com/DPRLive/Csharp_Study.git
+
