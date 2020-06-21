@@ -1,0 +1,95 @@
+1. 2~9의 구구단출력
+
+using System;
+
+namespace Csharp_Study
+{
+    class practice
+    {
+        static void Main(String[] args)
+        {
+            for(int i = 2; i < 10 ; i++)
+            {
+                for(int j = 1; j < 10; j++)
+                {
+                    Console.WriteLine($"{i} * {j} = {i*j}");
+                }
+            }
+        }
+    }
+}
+
+2. 별찍기 
+*
+**
+***
+****
+*****
+
+using System;
+
+namespace Csharp_Study
+{
+    class practice
+    {
+        static void Main(String[] args)
+        {
+            for(int i = 0; i < 5; i++)
+            {
+                for(int j = 0; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+3. 팩토리얼 함수 구현.
+
+using System;
+
+namespace Csharp_Study
+{
+    class practice
+    {     
+        static int Factorial(int n)
+        {
+            int res = 1;
+            for (int i = n; i > 0; i--)
+            {
+                res *= i;
+            }
+            return res;
+        }
+        static void Main(string[] args)
+        {
+            int ret = Factorial(5);
+            Console.WriteLine(ret);
+        }
+    }
+}
+
+4. 팩토리얼 재귀버전 (마트료시카 생각하셈)
+
+using System;
+
+namespace Csharp_Study
+{
+    class practice
+    {     
+        static int Factorial(int n)
+        {
+            if (n <= 1)
+                return 1;
+            return n * Factorial(n - 1);
+        }
+
+        static void Main(string[] args)
+        {
+            int ret = Factorial(5);
+            Console.WriteLine(ret);
+        }
+    }
+}

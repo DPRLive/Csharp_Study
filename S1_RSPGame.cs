@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 
 namespace Csharp_Study
 {
@@ -47,6 +48,7 @@ namespace Csharp_Study
         }
     }
 }
-/* 개선할 부분으로는 가위,바위,보는 변수명을 이용하는것이 수정시 용이함.
-    근데 그러면 switch case 문에서 문제가 있을수 있으므로 const int ROCK = 1; 같은 방법을 이용해
-    상수로 설정함. 하지만 클래스 이용하는게(열거형) 더 좋긴함. */
+// 개선할 부분으로는 가위,바위,보는 변수명을 이용하는것이 수정시 용이함.
+// 근데 그러면 switch case 문에서 문제가 있을수 있으므로 const int ROCK = 1; 같은 방법을 이용해
+// 상수로 설정함. 하지만 클래스 이용하는게(열거형) 더 좋긴함.
+*/
