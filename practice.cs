@@ -1,3 +1,4 @@
+/*
 using System;
 
 namespace Csharp_Study
@@ -8,4 +9,4 @@ namespace Csharp_Study
         {
         }
     }
-}
+}*/
