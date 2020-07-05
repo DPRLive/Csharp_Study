@@ -1,8 +1,9 @@
+/*
 using System;
 
 namespace Csharp_Study
 {
-    class TextRPG
+    class S2_TextRPG
     {
         enum ClassType
         {
@@ -116,21 +117,73 @@ namespace Csharp_Study
             }
         }
 
-        static void EnterField()
+        static void Fight(ref Player player,ref Monster monster)
         {
-            Console.WriteLine("필드에 접속했습니다!");
-            Monster monster;
-            CreateRandomMonster(out monster);
-            Console.WriteLine("[1] 전투 모드로 돌입\n[2] 일정 확률로 마을로 도망");
+            while(true)
+            {
+                monster.hp -= player.attack; //플레이어가 몬스터 공격
+                if(monster.hp <= 0) //몬스터 사망시
+                {
+                    Console.WriteLine("몬스터를 처치했습니다!");
+                    Console.WriteLine();
+                    break;
+                }
+                
+                player.hp -= monster.attack; // 몬스터의 반격
+                if(player.hp <= 0) //플레이어 사망시
+                {
+                    Console.WriteLine("사망하였습니다!");
+                    Console.WriteLine();
+                    break;
+                }
+            }
         }
 
-        static void EnterGame()
+        static void EnterField(ref Player player)
+        {
+            while (true){
+                Console.WriteLine("필드에 접속했습니다!");
+                Console.WriteLine();
+                Monster monster;
+                CreateRandomMonster(out monster);
+
+                Console.WriteLine("[1] 전투 모드로 돌입\n[2] 일정 확률로 마을로 도망");
+                Console.WriteLine($"현재 hp : {player.hp}");
+                string input = Console.ReadLine();
+
+                if (input == "1")
+                {
+                    Fight(ref player, ref monster);
+                }
+                else if (input == "2")
+                {
+                    Random rand = new Random();
+                    int randValue = rand.Next(0,101);
+
+                    if(randValue <= 33)
+                    {
+                        Console.WriteLine("도망에 성공했습니다!");
+                        Console.WriteLine();
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("도망에 실패했습니다. 싸움이 시작됩니다!");
+                        Fight(ref player, ref monster);
+                    }
+                }
+
+            }
+        }
+
+        static void EnterGame(ref Player player)
         {
             while(true){
                 Console.WriteLine("마을에 접속했습니다!\n[1] 필드로 간다.\n[2] 로비로 돌아가기.");
+                Console.WriteLine($"현재 hp : {player.hp}");
                 string input = Console.ReadLine();
                 if (input == "1")
-                    EnterField();          
+                    EnterField(ref player);          
                 else if (input == "2")
                     break;
                 }
@@ -145,9 +198,10 @@ namespace Csharp_Study
                 {
                     Player player;
                     CreatePlayer(select, out player);
-                    EnterGame();
+                    EnterGame(ref player);
                 }
             }
         }
     }
 }
+*/
