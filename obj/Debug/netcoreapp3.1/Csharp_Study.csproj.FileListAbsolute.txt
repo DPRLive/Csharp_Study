@@ -11,3 +11,16 @@ D:\Program Files\1.unity\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.pdb
 D:\Program Files\1.unity\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.dll
 D:\Program Files\1.unity\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.pdb
 D:\Program Files\1.unity\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.genruntimeconfig.cache
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.exe
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.deps.json
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.runtimeconfig.json
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.runtimeconfig.dev.json
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.dll
+C:\Users\Cyber\Csharp_Study\bin\Debug\netcoreapp3.1\Csharp_Study.pdb
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.csprojAssemblyReference.cache
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.AssemblyInfoInputs.cache
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.AssemblyInfo.cs
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.csproj.CoreCompileInputs.cache
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.dll
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.pdb
+C:\Users\Cyber\Csharp_Study\obj\Debug\netcoreapp3.1\Csharp_Study.genruntimeconfig.cache

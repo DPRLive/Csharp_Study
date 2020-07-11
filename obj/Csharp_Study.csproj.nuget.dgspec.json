@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\1.unity\\Csharp_Study\\Csharp_Study.csproj": {}
+    "C:\\Users\\Cyber\\Csharp_Study\\Csharp_Study.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\1.unity\\Csharp_Study\\Csharp_Study.csproj": {
+    "C:\\Users\\Cyber\\Csharp_Study\\Csharp_Study.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\1.unity\\Csharp_Study\\Csharp_Study.csproj",
+        "projectUniqueName": "C:\\Users\\Cyber\\Csharp_Study\\Csharp_Study.csproj",
         "projectName": "Csharp_Study",
-        "projectPath": "D:\\Program Files\\1.unity\\Csharp_Study\\Csharp_Study.csproj",
+        "projectPath": "C:\\Users\\Cyber\\Csharp_Study\\Csharp_Study.csproj",
         "packagesPath": "C:\\Users\\Cyber\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\1.unity\\Csharp_Study\\obj\\",
+        "outputPath": "C:\\Users\\Cyber\\Csharp_Study\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cyber\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
